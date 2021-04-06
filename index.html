@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ <!-- Date Picker  -->
+<!--  jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Isolated Version of Bootstrap, not needed if your site already uses Bootstrap -->
+<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+
+<!-- Bootstrap Date-Picker Plugin -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="jquery.fancybox.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/custom.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DCE 2021</title>
+  </head>
+  <body>
+    <div class="row head pt-3">
+      <div class="col-md-8 text-md-left text-center">
+        <img src="./img/logo_white.png" class="logo" />
+
+        <img src="./img/DCE Logo.png" class="logo" />
+      </div>
+      <div class="col-md-4 register text-md-right text-center pt-md-4 pr-md-3">
+        <button
+          type="button"
+          class="btn btn-danger mr-md-5 mt-md-2"
+          onclick="toRegister()"
+        >
+          Register
+        </button>
+      </div>
+    </div>
+    <div class="row topic">
+      <div class="row logo-group">
+        <div class="col-md-8 pt-md-3 first mt-md-5">
+          <div class="row logos mt-md-3 pt-md-3"></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row knowledge">
+            <div class="col text-lg-left text-center text-bold mt-auto white">
+              Our knowledge partner
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-lg-left text-center img-center">
+              <img
+                src="./img/DRaS LOGO (Knowledge partner).png"
+                height="156px"
+                width="auto"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 text white text-left intro">
+          Congratulations participant! You’ve taken the first step in the vast
+          journey of experiencing the excitement offered to you by India’s Armed
+          Forces. This will lead to a transformation within you, from which
+          you’ll emerge excited, enthralled and educated. So I guess there’s
+          only one thing left to ask you…
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+      <div class="row" style="width: 100%">
+        <div class="col text-center text-extrabold red" style="height: 80px">
+          How's the josh???
+        </div>
+      </div>
+    </div>
+    <div class="row content red-layer">
+      <div class="row" style="width: 100%">
+        <div class="col text-center text-extrabold blue" style="height: 100px">
+          Opening Ceremony
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 text-regular text-left blue">
+              Before the start of any operation, the warriors of the Armed
+              Forces have a briefing, where their morale is made ready for any
+              challenge that may appear. The Inauguration will give you a
+              crystal clear idea of what the event will entail also listen to Lt
+              Gen A Arun YSM, SM, VSM, General Officer Commanding, Dakshin
+              Bharat Area Command give the Keynote Address.
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <!-- <img src="./img/keynote.jpeg" height="360px" width="auto" /> -->
+          <a data-fancybox data-src="#hidden-content1" href="javascript:;">
+            <img src="./img/keynote.jpeg" height="360px" width="auto" />
+            <div style="display: none;" id="hidden-content1">
+              <img src="./img/keynote.jpeg"  style="width: 100%; height: auto;" />
+              </div>
+            </a>
+
+
+
+
+        </div>
+      </div>
+    </div>
+    <div class="row content green-layer">
+      <div class="row" style="width: 100%">
+        <div
+          class="col text-center text-extrabold yellow"
+          style="height: 100px"
+        >
+          Army Capsule
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 text text-left yellow">
+              The Indian Army provides you with the opportunity of serving
+              anywhere in the length and span of the country. The Indian Army
+              has various roles that it carries out in service of the Nation and
+              offers you the opportunity of choosing which role you play. Do you
+              want to drive a tank through sand dunes in a desert or fly a
+              helicopter through narrow mountain passes, do you want to command
+              a missile battery or pilot a drone deep into enemy territory, do
+              you want to work with the latest communication equipment or be an
+              Intelligence Officer? No matter what you want, the Indian Army has
+              it all for you. All you need to do is ask, and you can live a life
+              less ordinary.
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <a data-fancybox data-src="#hidden-content2" href="javascript:;">
+          <img src="./img/12april.jpeg" height="360px" width="auto" />
+          <div style="display: none;" id="hidden-content2">
+            <img src="./img/12april.jpeg"  style="width: 100%; height: auto;" />
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row content blue-layer">
+      <div class="row" style="width: 100%">
+        <div class="col text-center text-extrabold" style="height: 100px">
+          Air Force Capsule
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-11 text text-left">
+              Indian Air Force secures India’s Aerospace against all forms of
+              attacks. The Indian Air Force operates in some of the most
+              technologically challenging battlefields known to humans. The
+              Airspace is the most well known of these battlefields. Fighter
+              aircraft, missiles and helicopters are employed to secure it.
+              Space is often referred to as the final frontier for the Indian
+              Air Force, however, it's just another workspace. Satellites,
+              Anti-Satellite weapons and soon manned mission will form the
+              spearhead of India’s space combat capabilities. What seems to be
+              cutting edge technologies and groundbreaking technologies to you
+              are just regular tools for our Nation’s Air Warriors, as they
+              continue to be a cut above.
+            </div>
+            <div class="col-md-0"></div>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <!-- <img
+            src="./img/13april.jpeg"
+            height="360px"
+            width="auto"
+            style="opacity: 1"
+          /> -->
+          <a data-fancybox data-src="#hidden-content3" href="javascript:;">
+            <img src="./img/13april.jpeg" height="360px" width="auto" />
+            <div style="display: none;" id="hidden-content3">
+              <img src="./img/13april.jpeg"  style="width: 100%; height: auto;" />
+              </div>
+            </a>
+
+        </div>
+      </div>
+    </div>
+    <div class="row content white-layer">
+      <div class="row" style="width: 100%">
+        <div
+          class="col text-center text-extrabold"
+          style="height: 100px; width: 100%"
+        >
+          Navy Capsule
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-11 text text-left">
+              The raison d’etre of the Indian Navy is to fulfil multiple
+              challenging roles. Indian Navy not only secures India's Maritime
+              borders and coastline but plays a vital part in India's diplomacy.
+              The Navy’s tasks range from creating 'Bridges of friendship' with
+              other friendly countries, working against maritime crime and
+              assisting in disaster relief. Navies across the world have been
+              traditionally used as symbols of a Nation's might and power.
+              Members of the Indian Navy have the unique opportunity of serving
+              their country throughout the globe. The tools and weapons used by
+              the Indian Navy to accomplish this task are the pinnacles of
+              modern technological advancements. So come ahead to explore the
+              ocean of opportunity.
+            </div>
+            <div class="col-md-0"></div>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <!-- <img src="./img/14april.jpeg" height="360px" width="auto" /> -->
+          <a data-fancybox data-src="#hidden-content4" href="javascript:;">
+            <img src="./img/14april.jpeg" height="360px" width="auto" />
+            <div style="display: none;" id="hidden-content4">
+              <img src="./img/14april.jpeg"  style="width: 100%; height: auto;" />
+              </div>
+            </a>
+        </div>
+      </div>
+    </div>
+    <div class="row content red-layer">
+      <div class="layer">
+        <div class="row" style="width: 100%">
+          <div
+            class="col text-center text-extrabold blue"
+            style="height: 100px"
+          >
+            Closing Ceremony
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-10 text-regular text-left blue">
+                With this, your Defence Career Expo journey comes to a pause for
+                this year. One should celebrate and commemorate this journey, so
+                go ahead and enjoy an impeccable keynote address from Cmde G
+                Prakash, NSM.
+              </div>
+              <div class="col-md-1"></div>
+            </div>
+          </div>
+          <div class="col-md-6 text-center">
+            <!-- <img src="./img/closing.jpeg" height="250px" width="auto" /> -->
+            <a data-fancybox data-src="#hidden-content5" href="javascript:;">
+              <img src="./img/closing.jpeg" height="360px" width="auto" />
+              <div style="display: none;" id="hidden-content5">
+                <img src="./img/closing.jpeg"  style="width: 100%; height: auto;" />
+                </div>
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row white-layer">
+      <div class="col text-center pt-3 pb-3">
+        <img
+          src="./img/instructions.jpeg"
+          class="img-fluid"
+          alt="Responsive image"
+        />
+      </div>
+    </div>
+
+    <div class="row black-layer Register">
+      <div class="row" style="width: 100%">
+        <div class="col text-center text-extrabold red">Registration</div>
+      </div>
+      <div class="row mt-3" style="width: 100%">
+        <div class="col-md-6 mx-auto text-regular">
+          <form  id="google_sheet_form">
+            <div class="col align-self-center">
+							<div class="form-group">
+								<label for="name" class="sr-only">Name</label>
+								<input type="name" name="name" class="form-control" id="name" placeholder="Name" required>
+							</div>
+						</div>
+            <div class="col align-self-center">
+							<div class="form-group">
+								<label for="email" class="sr-only">Email</label>
+								<input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+							</div>
+						</div>
+						<div class="col align-self-center">
+							<div class="form-group">
+								<label for="phone" class="sr-only">Phone</label>
+								<input type="phone" name="phone" class="form-control" id="phone" placeholder="Phone" required>
+							</div>
+						</div>
+            <div class="col align-self-center">
+							<div class="form-group">
+								<label for="Location" class="sr-only">Location</label>
+								<input type="Location" name="Location" class="form-control" id="Location" placeholder="Location">
+							</div>
+						</div>
+            <div class="col align-self-center">
+							<div class="form-group">
+								<label for="text" class="sr-only">Your Institution</label>
+								<input type="text" name="Institution" class="form-control" id="Institution" placeholder="Your Institution">
+							</div>
+						</div>
+						<div class="col align-self-center">
+							<div class="form-group">
+								<label for="date" class="sr-only">Your DOB(DD/MM/YY)</label>
+								<input type="date" name="DOB" class="form-control" id="DOB" placeholder="Your DOB(DD/MM/YY)">
+							</div>
+						</div>
+            <center>
+            <div class="col align-self-center">
+              <label for="team" style="margin-bottom: 20px; color: white;">Your choice of Service</label>
+              <select class="form-group" name="Type" id="Type">
+        <option value="Indian Army">Indian Army</option>
+        <option value="Indian Air Force">Indian Air Force</option>
+        <option value="Indian Navy">Indian Navy</option>
+            </select>
+          </div>
+        </center>
+						<!-- <div class="col align-self-center">
+							<div class="form-group">
+								<label for="text" class="sr-only">Your Wish</label>
+								<input type="text" name="wish" class="form-control" id="wish" placeholder="Your Wish">
+							</div>
+						</div> -->
+						<center>
+							<div class="col-6 col-md-4">   </div>
+							<div class="col-6 col-md-4"><button type="submit"  id="submit_btn" style="background-color:red " class="btn btn-default btn-block">Submit</button> </div>
+							<div class="col-6 col-md-4">  </div>
+
+						<div class="col-md-4">
+							
+						</div>
+            <br>
+            <br>
+					</center>
+
+
+          </form>
+          <script>
+						const scriptURL = "https://script.google.com/macros/s/AKfycbzGII8QyGiH7e8UYEYVV5V83Sw8M6a5T6H3X39uk_CEc-PQQkBEJmxrVD5BdInIajQZug/exec"
+                        window.addEventListener('DOMContentLoaded', () => {
+                            $("#google_sheet_form").submit(function (e) {
+                                e.preventDefault()
+                                var number_of_checked_checkbox = 0;
+                
+                                if ((number_of_checked_checkbox == 0) ) {
+                                    const form = document.getElementById("google_sheet_form")
+                                    const buttonText = e.target.textContent;
+                                    const button_element = document.getElementById("submit_btn")
+                                    button_element.disabled = true
+                                    button_element.textContent = "Submitting..."
+                                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                                        .then(response => {
+                                            button_element.classList.remove('btn-primary')
+                                            button_element.classList.add('btn-success')
+                                            button_element.textContent = "Done!"
+                                            if (response.status == 200) {
+                                                console.log('Success!', response)
+                                                swal("Good job!", "Your response has been recorded!", "success").then(val=>{
+                                                    form.reset()
+                                                    button_element.disabled=false
+                                                    button_element.textContent="Submit"
+                                                })
+                                            }
+                                        })
+                                        .catch(error => {
+                                            console.error('Error!', error.message)
+                                            button_element.classList.remove('btn-primary')
+                                            button_element.classList.add('btn-danger')
+                                            button_element.textContent = "Sorry"
+                                            swal('oh noes!', 'Error submitting data.Please try again later.', 'error')
+                                        })
+
+                                }
+
+                            });
+                        });
+
+
+					</script>
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="row" style="width: 100%">
+        <div class="col mt-3 text-center">
+          <img src="img/DCE Logo.png" width="250px" height="auto" />
+        </div>
+      </div>
+      <div class="row" style="width: 100%">
+        <div class="col mt-3 text-center text-regular white mb-4">
+          Designed by Defence Team-KCT🛡️🎖️  <br />Made with ❤️ from iQube         
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+
+<!-- JS -->
+<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="jquery.fancybox.js"></script>
+
+  </body>
+  <script>
+    function toRegister() {
+      $(".Register").get(0).scrollIntoView();
+    }
+  </script>
+
+</html>
